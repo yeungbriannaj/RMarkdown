@@ -1,0 +1,21 @@
+---
+title: "QUIZ8"
+author: "Brianna Yeung (BYEU337)"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## QUESTION 1
+
+```{r QUESTION 1}
+ACTpage2 <- readLines("ACT-Party-Annual-Return-2022-page-2.txt")
+ACTpage3 <- readLines("ACT-Party-Annual-Return-2022-page-3.txt")
+ACTpage4 <- readLines("ACT-Party-Annual-Return-2022-page-4.txt")
+
+ACTpage2
+```
+
